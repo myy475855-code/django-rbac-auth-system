@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block title %}{{ role }} dashboard{% endblock %}{% block content %}<section class="role-card"><p class="eyebrow">AUTHORIZED AREA</p><h1>{{ role }} dashboard</h1><p class="lead">{{ description }}</p><span class="pill">Server-side role check passed</span><p><a href="{% url 'dashboard' %}">← Back to dashboard</a></p></section>{% endblock %}
